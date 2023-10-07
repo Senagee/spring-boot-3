@@ -1,0 +1,11 @@
+#配置项 key: value
+app:
+  name: aabb
+  port: 8888
+#引入多个配置类
+spring:
+  config:
+    import: conf/db.yml,conf/redis.yml
+  #激活哪个环境配置
+  profiles:
+    active: test

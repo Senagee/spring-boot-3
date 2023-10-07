@@ -1,0 +1,6 @@
+myapp:
+  mome: 测试环境配置
+spring:
+  config:
+    activate:
+      on-profile: test
